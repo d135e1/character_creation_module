@@ -9,9 +9,9 @@ TEST_DATA: list[tuple[int, str, bool]] = [
 BONUS: float = 1.1
 ANTIBONUS: float = 0.8
 
-def add_rep'('current_rep:str', 'rep_points: str', 'buf_effect: int') -> float':
+def add_rep(current_rep:str, rep_points: str, buf_effect: int) -> float:
     current_rep += rep_points
-    if buf_effect:
+        if buf_effect:
         return current_rep * BONUS
     return current_rep
 
